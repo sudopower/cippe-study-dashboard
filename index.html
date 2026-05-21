@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="CIPP/E Study" />
+  <meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f1117" media="(prefers-color-scheme: dark)" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>CIPP/E Study Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">CE</div>
+      <div>
+        <h1>CIPP/E Study Dashboard</h1>
+        <p class="brand-sub">IAPP Certified Information Privacy Professional — Europe</p>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-view="dashboard">Dashboard</button>
+      <button class="tab" data-view="flashcards">Flashcards</button>
+      <button class="tab" data-view="practice">Practice</button>
+      <button class="tab" data-view="quiz">Quiz</button>
+      <button class="tab" data-view="progress">Progress</button>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" title="Toggle theme">◐</button>
+  </header>
+
+  <main id="main">
+    <!-- ============== Dashboard ============== -->
+    <section class="view" data-view="dashboard">
+      <div class="grid stats">
+        <div class="card stat">
+          <div class="stat-label">Flashcards reviewed</div>
+          <div class="stat-value" id="stat-cards">0</div>
+          <div class="stat-sub"><span id="stat-cards-total">0</span> in deck</div>
+        </div>
+        <div class="card stat">
+          <div class="stat-label">Cards marked known</div>
+          <div class="stat-value" id="stat-known">0</div>
+          <div class="stat-sub"><span id="stat-known-pct">0%</span> of deck</div>
+        </div>
+        <div class="card stat">
+          <div class="stat-label">Quizzes completed</div>
+          <div class="stat-value" id="stat-quizzes">0</div>
+          <div class="stat-sub">Average <span id="stat-avg">—</span></div>
+        </div>
+        <div class="card stat">
+          <div class="stat-label">Best score</div>
+          <div class="stat-value" id="stat-best">—</div>
+          <div class="stat-sub">across all quizzes</div>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h2>Continue studying</h2>
+          <p class="muted">Pick a domain or jump back in. Your progress is saved in this browser.</p>
+          <div class="quick-actions">
+            <button class="btn primary" data-go="flashcards">Open flashcards</button>
+            <button class="btn" data-go="practice">Practice session</button>
+            <button class="btn" data-go="quiz">Take a graded quiz</button>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Domains</h2>
+          <ul class="domain-list" id="dashboardDomains"></ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>About this dashboard</h2>
+        <p class="muted">Local study app for the IAPP CIPP/E exam. All data is loaded from local JS files and progress is stored in your browser's <code>localStorage</code>. Nothing is sent over the network.</p>
+        <ul class="bullets">
+          <li><strong>Flashcards</strong> — flip and mark each card known / needs review. Filter by domain.</li>
+          <li><strong>Practice</strong> — untimed walk through MCQs at your own pace, see explanations after each.</li>
+          <li><strong>Quiz</strong> — graded run of a configurable number of randomised MCQs with a final score.</li>
+          <li><strong>Progress</strong> — review your history and reset if needed.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== Flashcards ============== -->
+    <section class="view hidden" data-view="flashcards">
+      <div class="card">
+        <div class="row between wrap">
+          <div>
+            <h2 style="margin:0">Flashcards</h2>
+            <p class="muted" id="fcMeta" style="margin:4px 0 0">—</p>
+          </div>
+          <div class="row gap">
+            <label class="field">
+              <span>Domain</span>
+              <select id="fcDomain"></select>
+            </label>
+            <label class="field">
+              <span>Show</span>
+              <select id="fcFilter">
+                <option value="all">All</option>
+                <option value="unreviewed">Unreviewed</option>
+                <option value="needsReview">Needs review</option>
+                <option value="known">Known</option>
+              </select>
+            </label>
+            <button class="btn" id="fcShuffle">Shuffle</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flashcard-area card">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-face front">
+            <div class="card-domain" id="fcDomainLabel">—</div>
+            <div class="card-text" id="fcFront">No cards match this filter.</div>
+            <div class="card-hint">Click or press <kbd>Space</kbd> to flip</div>
+          </div>
+          <div class="flashcard-face back">
+            <div class="card-domain" id="fcDomainLabel2">—</div>
+            <div class="card-text" id="fcBack"></div>
+            <div class="card-hint">Click to flip back</div>
+          </div>
+        </div>
+
+        <div class="fc-controls">
+          <button class="btn" id="fcPrev">← Previous</button>
+          <div class="fc-judge">
+            <button class="btn danger" id="fcNeedsReview">Needs review</button>
+            <button class="btn success" id="fcKnown">I knew it</button>
+          </div>
+          <button class="btn" id="fcNext">Next →</button>
+        </div>
+        <p class="muted center" id="fcPosition">—</p>
+      </div>
+    </section>
+
+    <!-- ============== Practice ============== -->
+    <section class="view hidden" data-view="practice">
+      <div class="card">
+        <h2 style="margin:0 0 6px">Practice session</h2>
+        <p class="muted" style="margin:0">Untimed. Each question shows the explanation immediately after you answer. Progress here doesn't count toward graded quizzes.</p>
+        <div class="row gap wrap" style="margin-top:14px">
+          <label class="field">
+            <span>Domain</span>
+            <select id="practiceDomain"></select>
+          </label>
+          <label class="field">
+            <span>Questions</span>
+            <select id="practiceCount">
+              <option value="10">10</option>
+              <option value="20" selected>20</option>
+              <option value="all">All</option>
+            </select>
+          </label>
+          <button class="btn primary" id="practiceStart">Start practice</button>
+        </div>
+      </div>
+
+      <div class="card hidden" id="practiceRunner">
+        <div class="row between">
+          <div class="muted" id="practiceProgress">—</div>
+          <button class="btn ghost" id="practiceExit">Exit</button>
+        </div>
+        <div class="question-block">
+          <div class="question-domain" id="practiceDomainLabel">—</div>
+          <h3 class="question-text" id="practiceQ">—</h3>
+          <ol class="options" id="practiceOpts"></ol>
+          <div class="explanation hidden" id="practiceExpl"></div>
+          <div class="row between">
+            <span id="practiceFeedback" class="feedback"></span>
+            <button class="btn primary hidden" id="practiceNext">Next →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== Quiz ============== -->
+    <section class="view hidden" data-view="quiz">
+      <div class="card">
+        <h2 style="margin:0 0 6px">Graded quiz</h2>
+        <p class="muted" style="margin:0">A randomised set of MCQs. Answers are revealed only at the end with your overall score.</p>
+        <div class="row gap wrap" style="margin-top:14px">
+          <label class="field">
+            <span>Domain</span>
+            <select id="quizDomain"></select>
+          </label>
+          <label class="field">
+            <span>Questions</span>
+            <select id="quizCount">
+              <option value="10">10</option>
+              <option value="20" selected>20</option>
+              <option value="40">40</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Pass mark</span>
+            <select id="quizPass">
+              <option value="70">70%</option>
+              <option value="75">75%</option>
+              <option value="80" selected>80%</option>
+            </select>
+          </label>
+          <button class="btn primary" id="quizStart">Start quiz</button>
+        </div>
+      </div>
+
+      <div class="card hidden" id="quizRunner">
+        <div class="row between">
+          <div class="muted" id="quizProgress">—</div>
+          <button class="btn ghost" id="quizExit">Exit</button>
+        </div>
+        <div class="question-block">
+          <div class="question-domain" id="quizDomainLabel">—</div>
+          <h3 class="question-text" id="quizQ">—</h3>
+          <ol class="options" id="quizOpts"></ol>
+          <div class="row end">
+            <button class="btn primary" id="quizNext">Next →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card hidden" id="quizResult">
+        <h2 id="quizResultHeader">Result</h2>
+        <div class="result-score">
+          <div class="score-ring" id="scoreRing">
+            <span id="scoreNumber">0%</span>
+          </div>
+          <div>
+            <div id="scoreLine" class="muted">—</div>
+            <div id="passFail" class="badge">—</div>
+          </div>
+        </div>
+        <h3>Review</h3>
+        <ol class="review-list" id="quizReview"></ol>
+        <div class="row gap">
+          <button class="btn" id="quizAgain">Try another quiz</button>
+          <button class="btn ghost" data-go="dashboard">Back to dashboard</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== Progress ============== -->
+    <section class="view hidden" data-view="progress">
+      <div class="card">
+        <h2 style="margin:0 0 6px">Quiz history</h2>
+        <p class="muted" style="margin:0">Your last 50 graded quiz attempts. Stored in this browser only.</p>
+        <div class="history-wrap">
+          <table class="history" id="historyTable">
+            <thead><tr><th>Date</th><th>Domain</th><th>Score</th><th>Result</th></tr></thead>
+            <tbody id="historyBody"><tr><td colspan="4" class="muted">No attempts yet.</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 6px">Flashcard progress</h2>
+        <div id="progressByDomain" class="progress-list"></div>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 6px">Reset</h2>
+        <p class="muted">This clears flashcard marks and quiz history from this browser only.</p>
+        <button class="btn danger" id="resetAll">Reset all progress</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="muted">CIPP/E Study Dashboard · runs locally · data in your browser only</span>
+  </footer>
+
+  <script src="data/flashcards.js"></script>
+  <script src="data/mcqs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
