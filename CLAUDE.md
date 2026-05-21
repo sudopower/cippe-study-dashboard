@@ -81,16 +81,17 @@ In `data/mcqs.js` — each entry pushed onto `window.MCQS`:
 
 ### Canonical domain strings
 
-Use these *exact* strings so filters and progress bars work. They mirror the CIPP/E Body of Knowledge:
+Use these *exact* strings so filters and progress bars work. They mirror the **CIPP/E Body of Knowledge v1.3.3** (approved 4 March 2025, effective 1 Sept 2025):
 
 - `"I. Introduction to European Data Protection"`
-- `"II. European Regulatory Institutions"`
-- `"III. Legislative Framework"`
-- `"IV. Compliance"`
-- `"V. International Data Transfers"`
-- `"VI. Topical Issues"`
+- `"II. European Data Protection Law and Regulation"`
+- `"III. European Data Processing"`
+- `"IV. European Data Protection: Scope and Accountability"`
+- `"V. Compliance with European Data Protection Law and Regulation"`
 
 If you add a new domain, that's fine — the UI auto-discovers them from the data — but keep the Roman-numeral prefix style for consistent ordering.
+
+> **History note:** prior to v1.3.3 the repo used six domains (II. European Regulatory Institutions, III. Legislative Framework, IV. Compliance, V. International Data Transfers, VI. Topical Issues). All MCQs and flashcards were migrated to the v1.3.3 names in 2026. If you regenerate content from older sources, remap before merging.
 
 ---
 

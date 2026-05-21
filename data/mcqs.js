@@ -28,7 +28,7 @@ window.MCQS = [
   },
   {
     id: "q-003",
-    domain: "II. European Regulatory Institutions",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "Which body issues binding decisions to resolve disputes between national supervisory authorities under the GDPR consistency mechanism?",
     options: [
       "European Commission",
@@ -41,7 +41,7 @@ window.MCQS = [
   },
   {
     id: "q-004",
-    domain: "II. European Regulatory Institutions",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "The EDPS primarily supervises:",
     options: [
       "All controllers established in the EU",
@@ -54,7 +54,7 @@ window.MCQS = [
   },
   {
     id: "q-005",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "Which of the following is NOT a GDPR principle under Article 5?",
     options: [
       "Purpose limitation",
@@ -67,7 +67,7 @@ window.MCQS = [
   },
   {
     id: "q-006",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "Under GDPR, consent must be:",
     options: [
       "Implicit and ongoing",
@@ -80,7 +80,7 @@ window.MCQS = [
   },
   {
     id: "q-007",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Which of these is a 'special category' of personal data under Article 9?",
     options: [
       "Bank account number",
@@ -93,7 +93,7 @@ window.MCQS = [
   },
   {
     id: "q-008",
-    domain: "III. Legislative Framework",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "A US-based e-commerce site ships products to consumers in Germany and prices in euros. Does GDPR apply?",
     options: [
       "No — GDPR only covers EU-established companies",
@@ -106,7 +106,7 @@ window.MCQS = [
   },
   {
     id: "q-009",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "Which lawful basis is NOT available to public authorities performing their tasks?",
     options: [
       "Legal obligation",
@@ -119,7 +119,7 @@ window.MCQS = [
   },
   {
     id: "q-010",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "A controller must respond to a Subject Access Request within:",
     options: [
       "72 hours",
@@ -132,7 +132,7 @@ window.MCQS = [
   },
   {
     id: "q-011",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "The right to data portability applies where processing is based on:",
     options: [
       "Any lawful basis, as long as data is electronic",
@@ -145,7 +145,7 @@ window.MCQS = [
   },
   {
     id: "q-012",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Article 22 protects data subjects from:",
     options: [
       "Any automated processing",
@@ -158,7 +158,7 @@ window.MCQS = [
   },
   {
     id: "q-013",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "A controller must notify the supervisory authority of a personal data breach:",
     options: [
       "Always, within 24 hours",
@@ -171,7 +171,7 @@ window.MCQS = [
   },
   {
     id: "q-014",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Data subjects must be informed of a breach when:",
     options: [
       "It involves more than 1,000 records",
@@ -184,7 +184,7 @@ window.MCQS = [
   },
   {
     id: "q-015",
-    domain: "III. Legislative Framework",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "The higher tier of GDPR administrative fines is:",
     options: [
       "€10 million or 2% of worldwide annual turnover",
@@ -197,7 +197,7 @@ window.MCQS = [
   },
   {
     id: "q-016",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Which is NOT a mandatory clause in an Art. 28 controller–processor contract?",
     options: [
       "Processor to process only on documented instructions",
@@ -210,7 +210,7 @@ window.MCQS = [
   },
   {
     id: "q-017",
-    domain: "III. Legislative Framework",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "A DPO must be designated when:",
     options: [
       "The organisation has more than 250 employees",
@@ -223,7 +223,7 @@ window.MCQS = [
   },
   {
     id: "q-018",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Pseudonymised data is:",
     options: [
       "No longer personal data",
@@ -236,7 +236,7 @@ window.MCQS = [
   },
   {
     id: "q-019",
-    domain: "III. Legislative Framework",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
     question: "Under ePrivacy, storing or accessing information on a user's terminal equipment (cookies) generally requires:",
     options: [
       "Legitimate interests assessment only",
@@ -249,7 +249,7 @@ window.MCQS = [
   },
   {
     id: "q-020",
-    domain: "III. Legislative Framework",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
     question: "The CJEU's Planet49 judgment established that:",
     options: [
       "Pre-ticked checkboxes are valid consent",
@@ -262,7 +262,7 @@ window.MCQS = [
   },
   {
     id: "q-021",
-    domain: "III. Legislative Framework",
+    domain: "I. Introduction to European Data Protection",
     question: "Which directive governs processing by competent authorities for criminal law enforcement?",
     options: [
       "ePrivacy Directive (2002/58/EC)",
@@ -275,7 +275,7 @@ window.MCQS = [
   },
   {
     id: "q-022",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "For an information-society service offered to a child relying on consent under GDPR, the default minimum age is:",
     options: [
       "13",
@@ -288,7 +288,7 @@ window.MCQS = [
   },
   {
     id: "q-023",
-    domain: "III. Legislative Framework",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "Joint controllership requires:",
     options: [
       "Equal shares of liability in all cases",
@@ -301,7 +301,7 @@ window.MCQS = [
   },
   {
     id: "q-024",
-    domain: "III. Legislative Framework",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "A DPIA is most clearly required when:",
     options: [
       "An HR system stores employee names and emails",
@@ -314,7 +314,7 @@ window.MCQS = [
   },
   {
     id: "q-025",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "The right to object under Art. 21(2) (direct marketing) is:",
     options: [
       "Conditional on demonstrating distress",
@@ -327,7 +327,7 @@ window.MCQS = [
   },
   {
     id: "q-026",
-    domain: "III. Legislative Framework",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "Records of processing activities under Art. 30 are typically NOT required when:",
     options: [
       "The organisation processes data only on paper",
@@ -340,7 +340,7 @@ window.MCQS = [
   },
   {
     id: "q-027",
-    domain: "IV. Compliance",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
     question: "An employer wishes to rely on employee consent to monitor company laptops. The best assessment is:",
     options: [
       "Consent is the strongest basis here",
@@ -353,7 +353,7 @@ window.MCQS = [
   },
   {
     id: "q-028",
-    domain: "IV. Compliance",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
     question: "A 'soft opt-in' for direct electronic marketing requires:",
     options: [
       "Contact details obtained in the context of a sale or negotiations, similar products/services, and a clear easy opt-out at collection and in every message",
@@ -366,7 +366,7 @@ window.MCQS = [
   },
   {
     id: "q-029",
-    domain: "IV. Compliance",
+    domain: "III. European Data Processing",
     question: "Which is a valid technical supplementary measure following Schrems II?",
     options: [
       "Promising in a contract not to disclose data to governments",
@@ -379,7 +379,7 @@ window.MCQS = [
   },
   {
     id: "q-030",
-    domain: "IV. Compliance",
+    domain: "III. European Data Processing",
     question: "Which is true of legitimate interests as a lawful basis?",
     options: [
       "It always overrides data subject objections",
@@ -392,7 +392,7 @@ window.MCQS = [
   },
   {
     id: "q-031",
-    domain: "IV. Compliance",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "The DPO may also perform which of the following without conflict of interest?",
     options: [
       "Head of IT determining security measures",
@@ -405,7 +405,7 @@ window.MCQS = [
   },
   {
     id: "q-032",
-    domain: "IV. Compliance",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Under GDPR, a processor that engages a sub-processor without prior authorisation is:",
     options: [
       "Always considered a joint controller",
@@ -418,7 +418,7 @@ window.MCQS = [
   },
   {
     id: "q-033",
-    domain: "IV. Compliance",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Which is the best statement about anonymisation?",
     options: [
       "Removing names is enough to anonymise data",
@@ -431,7 +431,7 @@ window.MCQS = [
   },
   {
     id: "q-034",
-    domain: "IV. Compliance",
+    domain: "III. European Data Processing",
     question: "When working with a vendor located in a country WITHOUT an adequacy decision, the BEST course is to:",
     options: [
       "Stop all processing until adequacy is granted",
@@ -444,7 +444,7 @@ window.MCQS = [
   },
   {
     id: "q-035",
-    domain: "V. International Data Transfers",
+    domain: "III. European Data Processing",
     question: "Which mechanism BEST suits intra-group transfers within a multinational?",
     options: [
       "Adequacy decision",
@@ -457,7 +457,7 @@ window.MCQS = [
   },
   {
     id: "q-036",
-    domain: "V. International Data Transfers",
+    domain: "III. European Data Processing",
     question: "Schrems II (C-311/18) ruled that:",
     options: [
       "SCCs are invalid for all transfers",
@@ -470,7 +470,7 @@ window.MCQS = [
   },
   {
     id: "q-037",
-    domain: "V. International Data Transfers",
+    domain: "III. European Data Processing",
     question: "Which is NOT a derogation under Article 49?",
     options: [
       "Explicit consent informed of risks",
@@ -483,7 +483,7 @@ window.MCQS = [
   },
   {
     id: "q-038",
-    domain: "V. International Data Transfers",
+    domain: "III. European Data Processing",
     question: "Which transfer mechanism does NOT require additional case-by-case assessment of the destination country's surveillance laws?",
     options: [
       "Standard Contractual Clauses",
@@ -496,7 +496,7 @@ window.MCQS = [
   },
   {
     id: "q-039",
-    domain: "V. International Data Transfers",
+    domain: "III. European Data Processing",
     question: "A remote support engineer in India views customer records held on EU servers. This is:",
     options: [
       "Not a transfer because data remains in the EU",
@@ -509,7 +509,7 @@ window.MCQS = [
   },
   {
     id: "q-040",
-    domain: "V. International Data Transfers",
+    domain: "III. European Data Processing",
     question: "The EU–US Data Privacy Framework (DPF), adopted in July 2023:",
     options: [
       "Reinstates Safe Harbor",
@@ -522,7 +522,7 @@ window.MCQS = [
   },
   {
     id: "q-041",
-    domain: "VI. Topical Issues",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Which CJEU case established the so-called 'right to be forgotten' against search engines?",
     options: [
       "Schrems I",
@@ -535,7 +535,7 @@ window.MCQS = [
   },
   {
     id: "q-042",
-    domain: "VI. Topical Issues",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "Which is true about the household exemption under Art. 2(2)(c)?",
     options: [
       "It always covers social media posts",
@@ -548,7 +548,7 @@ window.MCQS = [
   },
   {
     id: "q-043",
-    domain: "VI. Topical Issues",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
     question: "Under the EU Whistleblower Directive (2019/1937), reporting channels must:",
     options: [
       "Always disclose the reporter's identity to the accused",
@@ -561,7 +561,7 @@ window.MCQS = [
   },
   {
     id: "q-044",
-    domain: "III. Legislative Framework",
+    domain: "I. Introduction to European Data Protection",
     question: "Which statement BEST captures the relationship between GDPR and ePrivacy?",
     options: [
       "ePrivacy replaces GDPR in the electronic communications sector",
@@ -574,7 +574,7 @@ window.MCQS = [
   },
   {
     id: "q-045",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "A controller engages a payment processor. The payment processor decides which fraud-prevention checks to run on the transaction data for its own risk purposes. The payment processor is:",
     options: [
       "Always a processor",
@@ -587,7 +587,7 @@ window.MCQS = [
   },
   {
     id: "q-046",
-    domain: "IV. Compliance",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Which is the BEST practice for handling data subject access requests at scale?",
     options: [
       "Refuse all requests as manifestly excessive",
@@ -600,7 +600,7 @@ window.MCQS = [
   },
   {
     id: "q-047",
-    domain: "IV. Compliance",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "A DPIA must include:",
     options: [
       "A description of processing and purposes, necessity and proportionality assessment, risks to data subjects, and measures to address those risks",
@@ -613,7 +613,7 @@ window.MCQS = [
   },
   {
     id: "q-048",
-    domain: "III. Legislative Framework",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "Which Article requires controllers to demonstrate compliance with the GDPR principles?",
     options: [
       "Art. 5(1) — Principles",
@@ -626,7 +626,7 @@ window.MCQS = [
   },
   {
     id: "q-049",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "A controller relying on legitimate interests must, in its transparency notice:",
     options: [
       "Identify the legitimate interest being pursued",
@@ -639,7 +639,7 @@ window.MCQS = [
   },
   {
     id: "q-050",
-    domain: "V. International Data Transfers",
+    domain: "III. European Data Processing",
     question: "Which is true of onward transfers under SCCs?",
     options: [
       "Onward transfers are unrestricted once SCCs are signed",
@@ -652,7 +652,7 @@ window.MCQS = [
   },
   {
     id: "q-051",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "Storing CCTV footage of staff for 90 days where 30 days would suffice for security purposes likely violates which principle most directly?",
     options: [
       "Purpose limitation",
@@ -665,7 +665,7 @@ window.MCQS = [
   },
   {
     id: "q-052",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "Which statement about Article 14 (data not obtained from the data subject) is TRUE?",
     options: [
       "Information must be provided within 72 hours of receipt",
@@ -678,7 +678,7 @@ window.MCQS = [
   },
   {
     id: "q-053",
-    domain: "IV. Compliance",
+    domain: "III. European Data Processing",
     question: "A controller wishes to use a cloud CRM hosted in the EEA by a US parent company. The MOST important transfer consideration is:",
     options: [
       "Whether the EEA subsidiary's parent can access EU data remotely from the US, triggering Chapter V",
@@ -691,7 +691,7 @@ window.MCQS = [
   },
   {
     id: "q-054",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Which best describes 'profiling' under GDPR?",
     options: [
       "Any analysis of data",
@@ -704,7 +704,7 @@ window.MCQS = [
   },
   {
     id: "q-055",
-    domain: "III. Legislative Framework",
+    domain: "II. European Data Protection Law and Regulation",
     question: "Under Art. 17, a controller can refuse erasure where processing is necessary for:",
     options: [
       "Exercising freedom of expression and information",
@@ -717,7 +717,7 @@ window.MCQS = [
   },
   {
     id: "q-056",
-    domain: "II. European Regulatory Institutions",
+    domain: "I. Introduction to European Data Protection",
     question: "Which body adopts adequacy decisions for third countries?",
     options: [
       "European Parliament",
@@ -743,7 +743,7 @@ window.MCQS = [
   },
   {
     id: "q-058",
-    domain: "III. Legislative Framework",
+    domain: "III. European Data Processing",
     question: "Which is the BEST example of a 'data minimisation' practice?",
     options: [
       "Storing customer data for as long as possible 'just in case'",
@@ -756,7 +756,7 @@ window.MCQS = [
   },
   {
     id: "q-059",
-    domain: "IV. Compliance",
+    domain: "IV. European Data Protection: Scope and Accountability",
     question: "When designing a new product, applying 'privacy by default' means:",
     options: [
       "The most permissive settings are enabled at start-up",
@@ -769,7 +769,7 @@ window.MCQS = [
   },
   {
     id: "q-060",
-    domain: "VI. Topical Issues",
+    domain: "I. Introduction to European Data Protection",
     question: "After Brexit, the legal framework in the UK is BEST described as:",
     options: [
       "GDPR no longer applies in any form",
@@ -779,5 +779,274 @@ window.MCQS = [
     ],
     answer: 1,
     explanation: "UK GDPR + DPA 2018 mirror EU GDPR closely. The Commission's UK adequacy decision is currently in force and subject to periodic review."
+  },
+
+  // -----------------------------------------------------------------
+  // Scenario-based MCQs aligned to CIPP/E BoK v1.3.3 (eff. 1 Sept 2025)
+  // -----------------------------------------------------------------
+
+  {
+    id: "q-061",
+    domain: "I. Introduction to European Data Protection",
+    question: "A Swiss company exporting personal data globally asks why it should care about Convention 108+ when GDPR adequacy already covers its EU flows. Which answer is MOST accurate?",
+    options: [
+      "Convention 108+ has been repealed by the GDPR",
+      "Convention 108+ is the only legally binding international data protection treaty, extends well beyond the EU, and underpins many adequacy assessments",
+      "Convention 108+ only applies to government processing",
+      "Convention 108+ only matters for Council of Europe member states' public sectors"
+    ],
+    answer: 1,
+    explanation: "Convention 108+ (the modernised CoE Convention 108) remains the sole legally binding multilateral data protection treaty. Accession is open beyond the EU/EEA and it is frequently relied on as evidence of an adequate framework."
+  },
+  {
+    id: "q-062",
+    domain: "I. Introduction to European Data Protection",
+    question: "A UK-based SaaS provider with EU customers asks counsel which data protection regime governs its processing of EU residents' data after Brexit. BEST answer?",
+    options: [
+      "Only the UK GDPR applies because the controller is in the UK",
+      "Only the EU GDPR applies because the data subjects are in the EU",
+      "The UK GDPR + DPA 2018 govern its UK establishment; the EU GDPR also applies extraterritorially under Art. 3(2) where it targets or monitors EU data subjects",
+      "Neither applies because the EU-UK adequacy decision suspends both"
+    ],
+    answer: 2,
+    explanation: "Brexit did not switch off EU GDPR's extraterritorial reach. Where a UK controller offers goods/services to or monitors EU data subjects, EU GDPR applies in parallel with UK GDPR/DPA 2018. The Commission's adequacy decision facilitates EU→UK transfers; it does not displace EU GDPR's Art. 3(2)."
+  },
+
+  {
+    id: "q-063",
+    domain: "II. European Data Protection Law and Regulation",
+    question: "A hospital pseudonymises a patient dataset; the re-identification key is held by a separate team under strict access control. The pseudonymised file is exfiltrated, but the key is not. Which statement is correct?",
+    options: [
+      "The exfiltrated dataset is anonymous and falls outside the GDPR",
+      "The dataset is still personal data because re-identification remains possible with the separately held key; severity for breach notification may, however, be reduced",
+      "Pseudonymisation removes the need to notify any breach involving the dataset",
+      "Only the team holding the key needs to comply with the GDPR"
+    ],
+    answer: 1,
+    explanation: "Art. 4(5) treats pseudonymised data as personal data so long as re-identification is possible with additional information. Effective pseudonymisation can lower the risk and may influence whether data subjects must be notified under Art. 34, but it does not remove personal data status."
+  },
+  {
+    id: "q-064",
+    domain: "II. European Data Protection Law and Regulation",
+    question: "A SaaS HR vendor processes employee data strictly on its corporate customers' instructions. The vendor now wants to re-use the data to train its own machine-learning model offered to other customers. What is the BEST analysis?",
+    options: [
+      "Permissible — processors may freely re-use data for product improvement",
+      "Permissible if mentioned in the vendor's terms of service",
+      "The vendor becomes a controller for the new purpose, needs its own lawful basis, and likely violates Art. 28 and its DPA with customers",
+      "Only an issue if special category data is included"
+    ],
+    answer: 2,
+    explanation: "Determining a new purpose makes the vendor a controller for that processing (EDPB Guidelines 07/2020). It must establish a separate lawful basis and inform data subjects. Doing so without authorisation also breaches the Art. 28 processor obligations and the data processing agreement."
+  },
+  {
+    id: "q-065",
+    domain: "II. European Data Protection Law and Regulation",
+    question: "An employee accidentally emails an unencrypted spreadsheet containing 500 customer names and email addresses to the wrong external recipient. The controller's next step under GDPR is to:",
+    options: [
+      "Do nothing — the data is not sensitive",
+      "Assess the risk to data subjects; notify the lead SA within 72 hours of becoming aware if the risk is not unlikely, and notify individuals only if the risk is high",
+      "Immediately notify all customers regardless of risk",
+      "Wait until the recipient confirms deletion before assessing notification"
+    ],
+    answer: 1,
+    explanation: "Arts. 33–34 use a risk-based approach. SA notification within 72h is required unless the breach is unlikely to result in a risk to data subjects' rights. Data subject notification is required only where there is a high risk. EDPB Guidelines 9/2022 update the prior WP29 guidance."
+  },
+  {
+    id: "q-066",
+    domain: "II. European Data Protection Law and Regulation",
+    question: "A data subject submits a subject access request via the controller's public Twitter account. The controller demands a scanned passport before responding. Per EDPB Guidelines 01/2022, this is:",
+    options: [
+      "Appropriate — controllers must always formally verify identity",
+      "Generally disproportionate; identity verification is only allowed where there are reasonable doubts, and must use the least intrusive means",
+      "Unlawful in all cases — controllers may never request ID",
+      "Required only when the requester uses a personal email address"
+    ],
+    answer: 1,
+    explanation: "EDPB Guidelines 01/2022 on the right of access stress proportionality. Controllers may seek further information to confirm identity only where there are reasonable doubts, and must not collect more data than necessary. Demanding a passport scan by default is excessive."
+  },
+
+  {
+    id: "q-067",
+    domain: "III. European Data Processing",
+    question: "An online retailer wants to send personalised marketing emails to existing customers based on past purchases, relying on legitimate interests. What is the MOST important compliance step?",
+    options: [
+      "Document a legitimate interests assessment (LIA), ensure the ePrivacy 'soft opt-in' conditions are met for email marketing, and provide an easy unconditional opt-out (Art. 21(2))",
+      "Obtain explicit written consent for each email",
+      "Rely on contractual necessity since the customer already bought a product",
+      "No basis is required because the data is already held"
+    ],
+    answer: 0,
+    explanation: "ePrivacy Art. 13 allows the soft opt-in for similar products to existing customers, layered on top of a GDPR basis. An LIA is needed and the absolute right to object under Art. 21(2) must be honoured at collection and in every message."
+  },
+  {
+    id: "q-068",
+    domain: "III. European Data Processing",
+    question: "A start-up collects every data field its app can capture 'in case we need it later for product ideas.' Which GDPR principles are MOST clearly at risk?",
+    options: [
+      "Accuracy and integrity",
+      "Lawfulness, fairness and transparency only",
+      "Purpose limitation, data minimisation and storage limitation",
+      "Accountability only"
+    ],
+    answer: 2,
+    explanation: "Art. 5(1)(b)(c)(e). Open-ended collection without a specified, explicit and legitimate purpose breaches purpose limitation, exceeds what is adequate/relevant/limited, and undermines defined retention."
+  },
+  {
+    id: "q-069",
+    domain: "III. European Data Processing",
+    question: "A US cloud provider with EU sub-processors will host EU employee data on US infrastructure. SCCs are signed. What additional step is REQUIRED post-Schrems II?",
+    options: [
+      "Nothing — SCCs alone are sufficient",
+      "A transfer impact assessment (TIA) considering local laws (e.g., FISA 702, EO 12333) and, where needed, supplementary technical/contractual/organisational measures",
+      "Notification of the European Commission",
+      "Conversion of SCCs into Binding Corporate Rules"
+    ],
+    answer: 1,
+    explanation: "Schrems II (C-311/18) and EDPB Recommendations 01/2020 require exporters using SCCs to assess the importing country's laws and, where access by public authorities undermines essential equivalence, implement supplementary measures or suspend the transfer."
+  },
+  {
+    id: "q-070",
+    domain: "III. European Data Processing",
+    question: "A mobile app shows a short summary privacy notice in-app with links to a full notice on the web. Is this 'layered' approach compliant?",
+    options: [
+      "No — Art. 13/14 information must be presented in a single document",
+      "Yes, provided all Art. 13/14 information is readily accessible through the layers and the design is not deceptive (EDPB Guidelines on transparency, ex-WP260)",
+      "Yes, but only with prior SA approval",
+      "Only acceptable for B2B services"
+    ],
+    answer: 1,
+    explanation: "Layered notices are endorsed by the WP29/EDPB transparency guidance, provided the information is complete, easily accessible, and free of dark patterns (EDPB Guidelines 03/2022)."
+  },
+  {
+    id: "q-071",
+    domain: "III. European Data Processing",
+    question: "A fashion retailer embeds a Facebook 'Like' plugin. Visitors' data is transmitted to Meta even without clicking. Per Fashion ID (C-40/17), the retailer is:",
+    options: [
+      "A processor on behalf of Meta",
+      "Outside the scope of GDPR",
+      "A joint controller with Meta for the collection and transmission of visitor data, requiring an Art. 26 arrangement and appropriate lawful basis/transparency",
+      "Solely responsible for all downstream processing by Meta"
+    ],
+    answer: 2,
+    explanation: "Fashion ID held that the website operator is a joint controller with the social plugin provider for collection and transmission stages, but not for Meta's subsequent processing. Art. 26 requires a transparent arrangement allocating responsibilities."
+  },
+
+  {
+    id: "q-072",
+    domain: "IV. European Data Protection: Scope and Accountability",
+    question: "A Japanese e-commerce site ships to EU consumers, prices goods in EUR, and offers customer service in French and German. It has no EU establishment. Which is correct?",
+    options: [
+      "GDPR does not apply because the controller is outside the EU",
+      "GDPR applies under Art. 3(2)(a) (targeting EU data subjects with goods); the controller must designate a representative under Art. 27 unless an exemption applies",
+      "Only Japanese law applies",
+      "GDPR applies only to the payment processor"
+    ],
+    answer: 1,
+    explanation: "Targeting (EDPB Guidelines 3/2018) is shown by EUR pricing, EU shipping, and EU-language support. Extraterritorial application under Art. 3(2)(a) triggers Art. 27 representative obligations."
+  },
+  {
+    id: "q-073",
+    domain: "IV. European Data Protection: Scope and Accountability",
+    question: "A 200-employee clinic chain processes patient health records as a core activity. Must it appoint a Data Protection Officer?",
+    options: [
+      "Optional — DPO only required for public authorities",
+      "Yes — large-scale processing of special category data is a core activity, triggering mandatory designation under Art. 37(1)(c)",
+      "Only if it operates in more than one Member State",
+      "Only on instruction from the supervisory authority"
+    ],
+    answer: 1,
+    explanation: "Art. 37(1)(c) makes DPO designation mandatory where core activities consist of large-scale processing of special categories of data. WP243 (endorsed by EDPB) gives the factors for 'large scale'."
+  },
+  {
+    id: "q-074",
+    domain: "IV. European Data Protection: Scope and Accountability",
+    question: "A retailer plans to deploy live facial-recognition at store entrances to detect known shoplifters. What does the GDPR require BEFORE go-live?",
+    options: [
+      "Only a privacy notice on the door",
+      "A DPIA under Art. 35(3)(b) due to large-scale special category processing; prior consultation with the SA under Art. 36 if high residual risk; a lawful basis under Art. 9 (very narrow)",
+      "Consent obtained at point of sale",
+      "Nothing — CCTV rules are sufficient"
+    ],
+    answer: 1,
+    explanation: "Biometric data for unique identification is Art. 9 special category data. EDPB Guidelines 3/2019 (video) and 05/2022 (facial recognition by law enforcement) stress strict necessity/proportionality. A DPIA is mandatory and prior consultation is required where high risks cannot be mitigated."
+  },
+  {
+    id: "q-075",
+    domain: "IV. European Data Protection: Scope and Accountability",
+    question: "A controller's only EU establishment is in Ireland, but its cross-border service affects users in Germany and France. Which SA leads enforcement of a cross-border complaint?",
+    options: [
+      "Whichever SA receives the first complaint",
+      "The Irish DPC as Lead Supervisory Authority under the one-stop-shop (Art. 56), cooperating with the German and French SAs as concerned SAs (Art. 60)",
+      "The European Commission",
+      "The EDPB directly"
+    ],
+    answer: 1,
+    explanation: "Art. 56 designates the SA of the main establishment as LSA for cross-border processing. Art. 60 governs cooperation; Art. 65 dispute resolution by the EDPB applies only on disagreement."
+  },
+
+  {
+    id: "q-076",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
+    question: "An employer wants to install software that reads the content of every employee email to detect data exfiltration. What is the BEST approach under EU data protection law?",
+    options: [
+      "Permitted automatically by the employer's legitimate interest in security",
+      "Permitted only with each employee's signed consent",
+      "Apply strict necessity and proportionality; consider less intrusive measures first; ensure transparency, lawful basis (often Art. 88 + national law), DPIA, and Works Council consultation where applicable (cf. Bărbulescu v. Romania)",
+      "Permitted if the employee handbook says monitoring may occur"
+    ],
+    answer: 2,
+    explanation: "Bărbulescu v. Romania (ECtHR, 2017) set out factors for workplace monitoring: prior notice, scope, justification, less intrusive alternatives, and safeguards. Consent from employees is rarely 'freely given' due to the power imbalance (EDPB Guidelines 05/2020)."
+  },
+  {
+    id: "q-077",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
+    question: "A small boutique installs a CCTV camera that also captures the pavement and the entrance of the shop across the street. Per EDPB Guidelines 3/2019 on processing through video devices, this is:",
+    options: [
+      "Acceptable provided a notice is posted",
+      "Likely disproportionate; the field of view must be limited to what is necessary for the controller's specific purpose (e.g., shop entrance), and public areas should be excluded or masked",
+      "Acceptable because the pavement is a public space",
+      "Acceptable if footage is deleted after 30 days"
+    ],
+    answer: 1,
+    explanation: "EDPB Guidelines 3/2019 require the field of view to be restricted to the controller's premises; surveillance of public areas or third-party property generally exceeds legitimate interest and infringes data minimisation."
+  },
+  {
+    id: "q-078",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
+    question: "A website loads analytics cookies that profile users before any consent is obtained, on the basis that they 'help improve the site.' Under ePrivacy Art. 5(3) and the EDPB cookie banner taskforce report (2023):",
+    options: [
+      "Permitted — analytics cookies are strictly necessary",
+      "Not permitted; non-strictly-necessary cookies require prior consent, and 'Reject all' must be as easy and prominent as 'Accept all'; pre-ticked boxes are invalid",
+      "Permitted with a privacy notice only",
+      "Permitted only outside the EEA"
+    ],
+    answer: 1,
+    explanation: "ePrivacy Art. 5(3) requires informed consent for any storage/access of information on a user's device that is not strictly necessary. The EDPB cookie banner taskforce report flagged design dark patterns; pre-ticked boxes are invalid per Planet49 (C-673/17)."
+  },
+  {
+    id: "q-079",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
+    question: "Under a BYOD programme, an employer requires Mobile Device Management software giving it the power to remotely wipe the entire device, including the employee's personal data. The MOST defensible compliance approach is to:",
+    options: [
+      "Rely on employee consent because BYOD is voluntary",
+      "Implement container/dual-persona solutions limiting employer control to work data; document a proportionality/LIA analysis; involve Works Councils where applicable; comply with Art. 88 + national employment law",
+      "Have the employee sign a waiver disclaiming all rights",
+      "Treat the device as fully employer-owned"
+    ],
+    answer: 1,
+    explanation: "Consent is generally not freely given in the employment context (EDPB Guidelines 05/2020). Proportionate technical separation (containers) and transparency are required; full-device wipe rights over personal partitions are typically excessive."
+  },
+  {
+    id: "q-080",
+    domain: "V. Compliance with European Data Protection Law and Regulation",
+    question: "An HR team deploys an AI tool that ranks job applicants and auto-rejects those scoring below a threshold, with no human review. Under GDPR (and the EU AI Act):",
+    options: [
+      "Permitted with a privacy notice",
+      "Solely automated decisions with legal or similarly significant effects are prohibited under Art. 22 unless an exception applies (e.g., explicit consent, contract necessity with safeguards) AND meaningful human review must be guaranteed; AI Act classifies recruitment AI as high-risk with additional obligations",
+      "Permitted if the tool is from a reputable vendor",
+      "Permitted if the applicants are informed after the decision"
+    ],
+    answer: 1,
+    explanation: "Art. 22 bars solely automated decisions producing legal/similarly significant effects subject to narrow exceptions and safeguards (Art. 22(3)). The CJEU's SCHUFA judgment (C-634/21) confirmed a broad reading. EU AI Act Annex III lists recruitment as high-risk, imposing risk management, data governance, transparency, and human oversight duties."
   }
 ];
